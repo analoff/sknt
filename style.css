@@ -1,0 +1,213 @@
+header {
+    background-color: black;
+    color: white;
+    height: 110px;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+.logodiv {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 0%;
+}
+
+#logo {
+    width: 96px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: inside;
+    margin-top: 50px;
+}
+
+li {
+    float: left;
+    padding: 40 10 40 10;
+}
+
+li :hover {
+    background-color: rgba(102, 102, 102, 0.955);
+}
+
+#imagem_fundo {
+    background: url(img/aViagemEntreMundos..jpeg);
+    height: 100%;
+    background-size: cover;
+}
+
+.coluna {
+    float: left;
+    padding: 3% 5%;
+    position: relative;
+}
+
+.dois {
+    width:40%;
+}
+
+.quatro {
+    width: 15%;
+  
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.pic {
+    width: 70%;
+    height: 30%;
+}
+
+body {
+    background-color: rgb(131, 213, 233);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#buttom {
+    color: white;
+    border: 1px blueviolet solid;
+    padding: 10px 30px 10px 30px;
+    background-color: blueviolet;
+    border-radius: 10%;
+}
+#buttom:hover {
+    background-color: rgb(124, 18, 223);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+}
+
+
+ .carousel {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.carousel .pic {
+    width: 70%;
+    height: 30%;
+    height: auto;
+}
+
+.carousel div {
+    text-align: center;
+    padding: 10px;
+}
+
+.texto {
+   text-align: center;
+}
+
+#contact {
+    padding: 20px;
+    background-color:rgb(131, 213, 233);
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2ecc71;
+}
+
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+p {
+    margin-top: 20px;  
+    margin-bottom: 20px; 
+    margin-left: 30px; 
+    margin-right: 30px; 
+}
+
+h2 { 
+    text-align: center;
+}
+
+h4 {
+    margin-top: 20px;  
+    margin-bottom: 20px;  
+    margin-left: 50px;  
+    margin-right: 50px;  
+}
+
+@media all and (max-width: 768px) {
+    #imagem_fundo {
+        height: 40%;
+    }
+    #menu {
+        visibility: collapse;
+    } 
+    .coluna, .dois, .tres, .quatro {
+         display: block;   
+         width: 80%;
+         padding: 0;
+         margin: 10px auto;
+         float: none;
+    }
+    #logodiv {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 0px;
+    }
+    #logo {
+        margin-left: 0%;
+        transform: translateX(-200%);
+    }
+    .carousel {
+        width: 80%;
+    }
+    .carousel .pic {
+        width: 70%;
+    }
+    .carousel div {
+        text-align: center;
+    padding: 10px;
+    }
+ }
